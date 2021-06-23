@@ -1,4 +1,6 @@
 import './scss/styles.scss';
+import Brand from './components/Brand';
+import Audience from './components/Audience';
 
 // import { dontWaitFor } from 'workbox-core/_private';
 
@@ -20,6 +22,8 @@ function App() {
         
         
     </header>
+    <Brand/>
+    <Audience/>
   </div>
   );
 }
