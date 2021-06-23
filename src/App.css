@@ -18,7 +18,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  
+}
+
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+}
+.header-logo{
+  align-items: flex-start;
 }
 
 

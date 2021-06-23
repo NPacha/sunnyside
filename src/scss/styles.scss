@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;900&display=swap');
+body {
+    margin: 0;
+}
+.App {
+text-align: center;
+}
+
+.App-header {
+width: 100%;
+font-family: 'Fraunces';
+letter-spacing: 5px;
+background-image: url('../images/mobile/image-header.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+// justify-content: center;
+font-size: calc(10px + 2vmin);
+color: white;
+
+    .title {
+        margin-top: 30%;
+    }
+}
+
+.nav-bar{
+width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+  
+  
+  
+  .header-logo, .hamburger{
+    padding: 30px;
+  }
+}
