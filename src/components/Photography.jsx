@@ -1,12 +1,13 @@
 import React from 'react';
 
 
+
 export default function Photography () {
 
     return (
         <>
-        <section className="Graphic-Design">
-            <img src={image} alt="orange"/>
+        <section className="Photography">
+            
             <h2>
                 Photography
             </h2>

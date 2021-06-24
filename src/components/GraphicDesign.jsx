@@ -6,7 +6,7 @@ export default function GraphicDesign () {
     return (
         <>
         <section className="Graphic-Design">
-            <img src={image} alt="cherries"/>
+            
             <h2>
                 Graphic Design
             </h2>
