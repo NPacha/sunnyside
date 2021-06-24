@@ -3,6 +3,7 @@ import Brand from './components/Brand';
 import Audience from './components/Audience';
 import GraphicDesign from './components/GraphicDesign';
 import Photography from './components/Photography';
+import Testimonials from './components/Testimonials';
 
 // import { dontWaitFor } from 'workbox-core/_private';
 
@@ -28,6 +29,7 @@ function App() {
     <Audience/>
     <GraphicDesign/>
     <Photography/>
+    <Testimonials/>
   </div>
   );
 }
